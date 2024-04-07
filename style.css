@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1vw 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.15);
+    border: 0.1vw solid #00987a4c;
+}
+
+thead tr {
+    background-color: #0000009d;
+    color: #ffffff;
+    text-align: left;
+}
+
+thead th,
+thead td {
+    padding: 1.3vw;
+}
+
+th,
+td {
+    padding: 1vw;
+}
+
+tbody tr {
+    border-bottom: 0.1vw solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
